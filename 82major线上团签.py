@@ -7,18 +7,13 @@ import threading
 from datetime import datetime
 
 # ================== Git 推送配置 ==================
-GITHUB_REPO = "Juineii/pow_md0719"   # 请替换为您的仓库名
+GITHUB_REPO = "Juineii/82major_md0822"   # 请替换为您的仓库名
 GITHUB_BRANCH = "main"                  # 分支名（main 或 master）
 PUSH_INTERVAL = 60                      # 推送检查间隔（秒）
 
 # ================== 产品配置 ==================
 PRODUCTS = {
-    "POW线上团签": 13303,
-    "YORCH影通": 13304,
-    "HYUNBIN影通": 13305,
-    "JUNGBIN影通": 13306,
-    "DONGYEON影通": 13307,
-    "HONG影通": 13308
+    "82MAJOR线上团签": 13428
 }
 
 BASE_URL = "https://en.musicndrama.com/ajax/oms/OMS_get_product.cm?prod_idx="
